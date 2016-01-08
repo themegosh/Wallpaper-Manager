@@ -250,6 +250,7 @@
             this.Controls.Add(this.grpMonitor3);
             this.Controls.Add(this.grpMonitor2);
             this.Controls.Add(this.grpMonitor1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frmWallpaperProperties";
             this.ShowIcon = false;

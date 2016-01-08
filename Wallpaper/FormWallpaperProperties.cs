@@ -54,6 +54,7 @@ namespace Wallpaper
                 {
                     pic1.Image = Image.FromStream(stream);
                     txtPath1.Text = paths[0];
+                    grpMonitor1.Enabled = true;
                 }
             }
             catch (Exception e) {
@@ -66,6 +67,7 @@ namespace Wallpaper
                 {
                     pic2.Image = Image.FromStream(stream);
                     txtPath2.Text = paths[1];
+                    grpMonitor2.Enabled = true;
                 }
             }
             catch (Exception e)
@@ -78,6 +80,7 @@ namespace Wallpaper
                 {
                     pic3.Image = Image.FromStream(stream);
                     txtPath3.Text = paths[2];
+                    grpMonitor3.Enabled = true;
                 }
             }
             catch (Exception e)
